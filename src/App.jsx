@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div className="container">
-      {/* Sidebar */}
+      {}
       <aside className="sidebar">
         <h2>Genres</h2>
         <ul>
@@ -84,9 +84,9 @@ const App = () => {
         </ul>
       </aside>
 
-      {/* Main content */}
+      {}
 <main className="main">
-  {/* Search bar above title */}
+  {}
   <form onSubmit={handleSearch} className="search-form">
     <input
       type="text"
@@ -99,13 +99,13 @@ const App = () => {
 
   <h1>Games</h1>
 
-  {/* Filters */}
+  {}
   <div className="filters">
     <button className="filter">Platforms ▼</button>
     <button className="filter1">Order by: Relevance ▼</button>
   </div>
 
-  {/* Games list */}
+  {}
   <div className="games-grid">
     {games.map((game) => (
       <div className="game-card" key={game.id}>
